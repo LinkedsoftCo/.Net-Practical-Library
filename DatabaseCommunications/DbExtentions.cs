@@ -45,7 +45,6 @@ namespace DatabaseCommunications
             return sql + " ORDER BY " + sortExpression;
         }
 
-
         // takes an enumerable source and returns a comma separate string.
         // handy for building SQL Statements
         //(for example with IN () statements) from object collections
